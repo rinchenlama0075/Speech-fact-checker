@@ -1,0 +1,6 @@
+framework module Pods_speech_recog {
+  umbrella header "Pods-speech_recog-umbrella.h"
+
+  export *
+  module * { export * }
+}

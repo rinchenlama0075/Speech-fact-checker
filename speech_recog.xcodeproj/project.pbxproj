@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBC235C25DB9B9800A4E832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */; };
+		1EBC235E25DB9B9800A4E832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */; };
+		1EBC236025DB9B9800A4E832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235F25DB9B9800A4E832 /* ViewController.swift */; };
+		1EBC236325DB9B9800A4E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236125DB9B9800A4E832 /* Main.storyboard */; };
+		1EBC236525DB9B9B00A4E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236425DB9B9B00A4E832 /* Assets.xcassets */; };
+		1EBC236825DB9B9B00A4E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236625DB9B9B00A4E832 /* LaunchScreen.storyboard */; };
+		1EBC237325DB9B9C00A4E832 /* speech_recogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC237225DB9B9C00A4E832 /* speech_recogTests.swift */; };
+		1EBC237E25DB9B9C00A4E832 /* speech_recogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC237D25DB9B9C00A4E832 /* speech_recogUITests.swift */; };
+		7E304E43F3A0E235FE1BB0C8 /* Pods_speech_recog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6620BE7AF13B33ED14B2D55 /* Pods_speech_recog.framework */; };
+		7FF378B302D3DC49359A5CF1 /* Pods_speech_recogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09B42431A9C1AA79A6CB31E /* Pods_speech_recogTests.framework */; };
+		EB2BCC4B5D4E1A7E1C61DDC1 /* Pods_speech_recog_speech_recogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEECDAA20B2540DE378FD81 /* Pods_speech_recog_speech_recogUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBC236F25DB9B9C00A4E832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBC235025DB9B9800A4E832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBC235725DB9B9800A4E832;
+			remoteInfo = speech_recog;
+		};
+		1EBC237A25DB9B9C00A4E832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBC235025DB9B9800A4E832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBC235725DB9B9800A4E832;
+			remoteInfo = speech_recog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC282D2C4CE0C772046BFCB /* Pods-speech_recogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recogTests.debug.xcconfig"; path = "Target Support Files/Pods-speech_recogTests/Pods-speech_recogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10715CB5785EC223E749B858 /* Pods-speech_recog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog.release.xcconfig"; path = "Target Support Files/Pods-speech_recog/Pods-speech_recog.release.xcconfig"; sourceTree = "<group>"; };
+		1E0CC64425DC59C2004BD319 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1EBC235825DB9B9800A4E832 /* speech_recog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speech_recog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EBC235F25DB9B9800A4E832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBC236225DB9B9800A4E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBC236425DB9B9B00A4E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBC236725DB9B9B00A4E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBC236925DB9B9B00A4E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBC236E25DB9B9C00A4E832 /* speech_recogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speech_recogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC237225DB9B9C00A4E832 /* speech_recogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech_recogTests.swift; sourceTree = "<group>"; };
+		1EBC237425DB9B9C00A4E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBC237925DB9B9C00A4E832 /* speech_recogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speech_recogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC237D25DB9B9C00A4E832 /* speech_recogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech_recogUITests.swift; sourceTree = "<group>"; };
+		1EBC237F25DB9B9C00A4E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C88BAD2EDDB59D44983E401 /* Pods-speech_recog-speech_recogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog-speech_recogUITests.release.xcconfig"; path = "Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D7282996BD27DA36A56C47A /* Pods-speech_recogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recogTests.release.xcconfig"; path = "Target Support Files/Pods-speech_recogTests/Pods-speech_recogTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BEECDAA20B2540DE378FD81 /* Pods_speech_recog_speech_recogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speech_recog_speech_recogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9375C5008C24C4712DD37DC8 /* Pods-speech_recog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog.debug.xcconfig"; path = "Target Support Files/Pods-speech_recog/Pods-speech_recog.debug.xcconfig"; sourceTree = "<group>"; };
+		A6620BE7AF13B33ED14B2D55 /* Pods_speech_recog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speech_recog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09B42431A9C1AA79A6CB31E /* Pods_speech_recogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speech_recogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB41FFCAB12456CD03CA57A /* Pods-speech_recog-speech_recogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog-speech_recogUITests.debug.xcconfig"; path = "Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBC235525DB9B9800A4E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E304E43F3A0E235FE1BB0C8 /* Pods_speech_recog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC236B25DB9B9C00A4E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF378B302D3DC49359A5CF1 /* Pods_speech_recogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC237625DB9B9C00A4E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BCC4B5D4E1A7E1C61DDC1 /* Pods_speech_recog_speech_recogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBC234F25DB9B9800A4E832 = {
+			isa = PBXGroup;
+			children = (
+				1E0CC64425DC59C2004BD319 /* README.md */,
+				1EBC235A25DB9B9800A4E832 /* speech_recog */,
+				1EBC237125DB9B9C00A4E832 /* speech_recogTests */,
+				1EBC237C25DB9B9C00A4E832 /* speech_recogUITests */,
+				1EBC235925DB9B9800A4E832 /* Products */,
+				82296E799E7E89853816BAED /* Pods */,
+				2A9DE587ED322F9447BDFD11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBC235925DB9B9800A4E832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC235825DB9B9800A4E832 /* speech_recog.app */,
+				1EBC236E25DB9B9C00A4E832 /* speech_recogTests.xctest */,
+				1EBC237925DB9B9C00A4E832 /* speech_recogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBC235A25DB9B9800A4E832 /* speech_recog */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */,
+				1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */,
+				1EBC235F25DB9B9800A4E832 /* ViewController.swift */,
+				1EBC236125DB9B9800A4E832 /* Main.storyboard */,
+				1EBC236425DB9B9B00A4E832 /* Assets.xcassets */,
+				1EBC236625DB9B9B00A4E832 /* LaunchScreen.storyboard */,
+				1EBC236925DB9B9B00A4E832 /* Info.plist */,
+			);
+			path = speech_recog;
+			sourceTree = "<group>";
+		};
+		1EBC237125DB9B9C00A4E832 /* speech_recogTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC237225DB9B9C00A4E832 /* speech_recogTests.swift */,
+				1EBC237425DB9B9C00A4E832 /* Info.plist */,
+			);
+			path = speech_recogTests;
+			sourceTree = "<group>";
+		};
+		1EBC237C25DB9B9C00A4E832 /* speech_recogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC237D25DB9B9C00A4E832 /* speech_recogUITests.swift */,
+				1EBC237F25DB9B9C00A4E832 /* Info.plist */,
+			);
+			path = speech_recogUITests;
+			sourceTree = "<group>";
+		};
+		2A9DE587ED322F9447BDFD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6620BE7AF13B33ED14B2D55 /* Pods_speech_recog.framework */,
+				4BEECDAA20B2540DE378FD81 /* Pods_speech_recog_speech_recogUITests.framework */,
+				B09B42431A9C1AA79A6CB31E /* Pods_speech_recogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82296E799E7E89853816BAED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9375C5008C24C4712DD37DC8 /* Pods-speech_recog.debug.xcconfig */,
+				10715CB5785EC223E749B858 /* Pods-speech_recog.release.xcconfig */,
+				DAB41FFCAB12456CD03CA57A /* Pods-speech_recog-speech_recogUITests.debug.xcconfig */,
+				2C88BAD2EDDB59D44983E401 /* Pods-speech_recog-speech_recogUITests.release.xcconfig */,
+				0CC282D2C4CE0C772046BFCB /* Pods-speech_recogTests.debug.xcconfig */,
+				2D7282996BD27DA36A56C47A /* Pods-speech_recogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBC235725DB9B9800A4E832 /* speech_recog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC238225DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recog" */;
+			buildPhases = (
+				869A66D6CEA03A5A74B270A7 /* [CP] Check Pods Manifest.lock */,
+				1EBC235425DB9B9800A4E832 /* Sources */,
+				1EBC235525DB9B9800A4E832 /* Frameworks */,
+				1EBC235625DB9B9800A4E832 /* Resources */,
+				A6985FD8E7DB1A6FE289B4B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speech_recog;
+			productName = speech_recog;
+			productReference = 1EBC235825DB9B9800A4E832 /* speech_recog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBC236D25DB9B9C00A4E832 /* speech_recogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC238525DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recogTests" */;
+			buildPhases = (
+				DCC28C93A6A078DF5BD6E154 /* [CP] Check Pods Manifest.lock */,
+				1EBC236A25DB9B9C00A4E832 /* Sources */,
+				1EBC236B25DB9B9C00A4E832 /* Frameworks */,
+				1EBC236C25DB9B9C00A4E832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBC237025DB9B9C00A4E832 /* PBXTargetDependency */,
+			);
+			name = speech_recogTests;
+			productName = speech_recogTests;
+			productReference = 1EBC236E25DB9B9C00A4E832 /* speech_recogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBC237825DB9B9C00A4E832 /* speech_recogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC238825DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recogUITests" */;
+			buildPhases = (
+				B8C2A2B6D2EA822B7C4BAAE9 /* [CP] Check Pods Manifest.lock */,
+				1EBC237525DB9B9C00A4E832 /* Sources */,
+				1EBC237625DB9B9C00A4E832 /* Frameworks */,
+				1EBC237725DB9B9C00A4E832 /* Resources */,
+				F69A0E66985A350CA8787886 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBC237B25DB9B9C00A4E832 /* PBXTargetDependency */,
+			);
+			name = speech_recogUITests;
+			productName = speech_recogUITests;
+			productReference = 1EBC237925DB9B9C00A4E832 /* speech_recogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBC235025DB9B9800A4E832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1EBC235725DB9B9800A4E832 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1EBC236D25DB9B9C00A4E832 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1EBC235725DB9B9800A4E832;
+					};
+					1EBC237825DB9B9C00A4E832 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1EBC235725DB9B9800A4E832;
+					};
+				};
+			};
+			buildConfigurationList = 1EBC235325DB9B9800A4E832 /* Build configuration list for PBXProject "speech_recog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBC234F25DB9B9800A4E832;
+			productRefGroup = 1EBC235925DB9B9800A4E832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBC235725DB9B9800A4E832 /* speech_recog */,
+				1EBC236D25DB9B9C00A4E832 /* speech_recogTests */,
+				1EBC237825DB9B9C00A4E832 /* speech_recogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBC235625DB9B9800A4E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC236825DB9B9B00A4E832 /* LaunchScreen.storyboard in Resources */,
+				1EBC236525DB9B9B00A4E832 /* Assets.xcassets in Resources */,
+				1EBC236325DB9B9800A4E832 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC236C25DB9B9C00A4E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC237725DB9B9C00A4E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		869A66D6CEA03A5A74B270A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speech_recog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6985FD8E7DB1A6FE289B4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speech_recog/Pods-speech_recog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speech_recog/Pods-speech_recog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speech_recog/Pods-speech_recog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C2A2B6D2EA822B7C4BAAE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speech_recog-speech_recogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC28C93A6A078DF5BD6E154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speech_recogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69A0E66985A350CA8787886 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBC235425DB9B9800A4E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC236025DB9B9800A4E832 /* ViewController.swift in Sources */,
+				1EBC235C25DB9B9800A4E832 /* AppDelegate.swift in Sources */,
+				1EBC235E25DB9B9800A4E832 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC236A25DB9B9C00A4E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC237325DB9B9C00A4E832 /* speech_recogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC237525DB9B9C00A4E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC237E25DB9B9C00A4E832 /* speech_recogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBC237025DB9B9C00A4E832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBC235725DB9B9800A4E832 /* speech_recog */;
+			targetProxy = 1EBC236F25DB9B9C00A4E832 /* PBXContainerItemProxy */;
+		};
+		1EBC237B25DB9B9C00A4E832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBC235725DB9B9800A4E832 /* speech_recog */;
+			targetProxy = 1EBC237A25DB9B9C00A4E832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBC236125DB9B9800A4E832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBC236225DB9B9800A4E832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBC236625DB9B9B00A4E832 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBC236725DB9B9B00A4E832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBC238025DB9B9C00A4E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EBC238125DB9B9C00A4E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBC238325DB9B9C00A4E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9375C5008C24C4712DD37DC8 /* Pods-speech_recog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBC238425DB9B9C00A4E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10715CB5785EC223E749B858 /* Pods-speech_recog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EBC238625DB9B9C00A4E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC282D2C4CE0C772046BFCB /* Pods-speech_recogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speech_recog.app/speech_recog";
+			};
+			name = Debug;
+		};
+		1EBC238725DB9B9C00A4E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7282996BD27DA36A56C47A /* Pods-speech_recogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speech_recog.app/speech_recog";
+			};
+			name = Release;
+		};
+		1EBC238925DB9B9C00A4E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB41FFCAB12456CD03CA57A /* Pods-speech_recog-speech_recogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speech_recog;
+			};
+			name = Debug;
+		};
+		1EBC238A25DB9B9C00A4E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C88BAD2EDDB59D44983E401 /* Pods-speech_recog-speech_recogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = speech_recogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rinchen.speech-recogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speech_recog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBC235325DB9B9800A4E832 /* Build configuration list for PBXProject "speech_recog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC238025DB9B9C00A4E832 /* Debug */,
+				1EBC238125DB9B9C00A4E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC238225DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC238325DB9B9C00A4E832 /* Debug */,
+				1EBC238425DB9B9C00A4E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC238525DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC238625DB9B9C00A4E832 /* Debug */,
+				1EBC238725DB9B9C00A4E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC238825DB9B9C00A4E832 /* Build configuration list for PBXNativeTarget "speech_recogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC238925DB9B9C00A4E832 /* Debug */,
+				1EBC238A25DB9B9C00A4E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBC235025DB9B9800A4E832 /* Project object */;
+}
