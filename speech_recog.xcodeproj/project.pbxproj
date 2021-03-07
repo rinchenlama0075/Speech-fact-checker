@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E978FB125F4576F00396D48 /* RandomFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E978FB025F4576F00396D48 /* RandomFactViewController.swift */; };
 		1EBC235C25DB9B9800A4E832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */; };
 		1EBC235E25DB9B9800A4E832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */; };
-		1EBC236025DB9B9800A4E832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235F25DB9B9800A4E832 /* ViewController.swift */; };
+		1EBC236025DB9B9800A4E832 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC235F25DB9B9800A4E832 /* MainScreen.swift */; };
 		1EBC236325DB9B9800A4E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236125DB9B9800A4E832 /* Main.storyboard */; };
 		1EBC236525DB9B9B00A4E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236425DB9B9B00A4E832 /* Assets.xcassets */; };
 		1EBC236825DB9B9B00A4E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC236625DB9B9B00A4E832 /* LaunchScreen.storyboard */; };
 		1EBC237325DB9B9C00A4E832 /* speech_recogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC237225DB9B9C00A4E832 /* speech_recogTests.swift */; };
 		1EBC237E25DB9B9C00A4E832 /* speech_recogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC237D25DB9B9C00A4E832 /* speech_recogUITests.swift */; };
+		1ED8BCED25F3033D005B480D /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED8BCEC25F3033D005B480D /* FactsViewController.swift */; };
 		7E304E43F3A0E235FE1BB0C8 /* Pods_speech_recog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6620BE7AF13B33ED14B2D55 /* Pods_speech_recog.framework */; };
 		7FF378B302D3DC49359A5CF1 /* Pods_speech_recogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09B42431A9C1AA79A6CB31E /* Pods_speech_recogTests.framework */; };
 		EB2BCC4B5D4E1A7E1C61DDC1 /* Pods_speech_recog_speech_recogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEECDAA20B2540DE378FD81 /* Pods_speech_recog_speech_recogUITests.framework */; };
@@ -41,10 +43,11 @@
 		0CC282D2C4CE0C772046BFCB /* Pods-speech_recogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recogTests.debug.xcconfig"; path = "Target Support Files/Pods-speech_recogTests/Pods-speech_recogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		10715CB5785EC223E749B858 /* Pods-speech_recog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog.release.xcconfig"; path = "Target Support Files/Pods-speech_recog/Pods-speech_recog.release.xcconfig"; sourceTree = "<group>"; };
 		1E0CC64425DC59C2004BD319 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1E978FB025F4576F00396D48 /* RandomFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactViewController.swift; sourceTree = "<group>"; };
 		1EBC235825DB9B9800A4E832 /* speech_recog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speech_recog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EBC235F25DB9B9800A4E832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBC235F25DB9B9800A4E832 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		1EBC236225DB9B9800A4E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EBC236425DB9B9B00A4E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EBC236725DB9B9B00A4E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		1EBC237925DB9B9C00A4E832 /* speech_recogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speech_recogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBC237D25DB9B9C00A4E832 /* speech_recogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech_recogUITests.swift; sourceTree = "<group>"; };
 		1EBC237F25DB9B9C00A4E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED8BCEC25F3033D005B480D /* FactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
 		2C88BAD2EDDB59D44983E401 /* Pods-speech_recog-speech_recogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recog-speech_recogUITests.release.xcconfig"; path = "Target Support Files/Pods-speech_recog-speech_recogUITests/Pods-speech_recog-speech_recogUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2D7282996BD27DA36A56C47A /* Pods-speech_recogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speech_recogTests.release.xcconfig"; path = "Target Support Files/Pods-speech_recogTests/Pods-speech_recogTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BEECDAA20B2540DE378FD81 /* Pods_speech_recog_speech_recogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speech_recog_speech_recogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,11 +124,13 @@
 			children = (
 				1EBC235B25DB9B9800A4E832 /* AppDelegate.swift */,
 				1EBC235D25DB9B9800A4E832 /* SceneDelegate.swift */,
-				1EBC235F25DB9B9800A4E832 /* ViewController.swift */,
+				1EBC235F25DB9B9800A4E832 /* MainScreen.swift */,
 				1EBC236125DB9B9800A4E832 /* Main.storyboard */,
 				1EBC236425DB9B9B00A4E832 /* Assets.xcassets */,
 				1EBC236625DB9B9B00A4E832 /* LaunchScreen.storyboard */,
 				1EBC236925DB9B9B00A4E832 /* Info.plist */,
+				1ED8BCEC25F3033D005B480D /* FactsViewController.swift */,
+				1E978FB025F4576F00396D48 /* RandomFactViewController.swift */,
 			);
 			path = speech_recog;
 			sourceTree = "<group>";
@@ -408,7 +414,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EBC236025DB9B9800A4E832 /* ViewController.swift in Sources */,
+				1E978FB125F4576F00396D48 /* RandomFactViewController.swift in Sources */,
+				1ED8BCED25F3033D005B480D /* FactsViewController.swift in Sources */,
+				1EBC236025DB9B9800A4E832 /* MainScreen.swift in Sources */,
 				1EBC235C25DB9B9800A4E832 /* AppDelegate.swift in Sources */,
 				1EBC235E25DB9B9800A4E832 /* SceneDelegate.swift in Sources */,
 			);

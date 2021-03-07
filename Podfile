@@ -7,6 +7,8 @@ target 'speech_recog' do
 
   pod 'InstantSearchVoiceOverlay'
     pod 'AlamofireImage'
+    pod 'Parse'
+    pod 'InstantSearchVoiceOverlay'
 
   target 'speech_recogTests' do
     inherit! :search_paths
@@ -16,6 +18,7 @@ target 'speech_recog' do
   target 'speech_recogUITests' do
     pod 'InstantSearchVoiceOverlay'
     pod 'AlamofireImage'
+    
   end
 
 end
